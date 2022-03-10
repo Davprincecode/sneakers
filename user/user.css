@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* .headercontainer{
+    position: fixed;
+    top: 0px;
+    padding: 10px;
+} */
+.header{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .arrback a{
+    color: white;
+    margin-left: 10px;
+  }
+  .exp p {
+    text-transform: capitalize;
+    color: white;
+  }
+  .fordot{
+    color: white;
+    margin-right: 10px;
+  }
+
+
+.profileflex{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profileimgcontainer{
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid goldenrod;
+    padding: 5px;
+    border-radius: 50%;
+}
+.profileimgcontainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profilepost, .profilefollowers, .profilefollowing{
+    text-align: center;
+}
+.profilepost p, .profilefollowers p, .profilefollowing p {
+    color: white;
+}
+.profilepost h1, .profilefollowers h1, .profilefollowing h1{
+    color: goldenrod;
+}
+
+
+.profiledetails{
+    margin-left: 10px;
+}
+.profiledetails h4{
+    text-transform: capitalize;
+    color: goldenrod;
+}
+.profiledetails p{
+    color: whitesmoke;
+    font-size: 17px;
+}
+.btnedit{
+    border: 1px solid gray;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 280px;
+    margin-top: 10px;
+}
+.btnedit a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.btnedit i{
+    color: goldenrod;
+    margin-right: 5px;
+}
+
+
+
+
+.postflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.postimgcontainer{
+    margin-top: 20px;
+    width: 200px;
+    background-color: aliceblue;
+    padding-bottom: 5px;
+}
+
+.postImage{
+    width: 100%;
+    height: 200px;
+}
+
+.postImage img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 410px ){
+    .postimgcontainer{
+        margin-top: 20px;
+        width: 150px;
+        background-color: aliceblue;
+        padding-bottom: 5px;
+    }
+}
+
+
+/* ======================== */
+
+.mobnav{
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    background: white;
+    z-index: 1000;
+    width: 100%;
+  }
+  .mobnavflex{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  
+  .mobnavflex a{
+    text-decoration: none;
+    color: rgb(107, 104, 104);
+  }
+  
+  .mobhome, .mobcollection, .mobreleasedate, .mobexplore, .mobprofile {
+    text-align: center;
+  }
+  
+  .mobprofile a{
+    color: black;
+  }
+  
+  .mobimg{
+  width: 23px;
+  height: 23px;
+  margin: 0 auto;
+  border-radius: 50%;
+  }
+  .mobimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
