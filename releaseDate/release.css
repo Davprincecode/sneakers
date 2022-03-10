@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================== */
+
+.mobnav{
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    background: white;
+    z-index: 1000;
+    width: 100%;
+  }
+  .mobnavflex{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  
+  .mobnavflex a{
+    text-decoration: none;
+    color: rgb(107, 104, 104);
+  }
+  
+  .mobhome, .mobcollection, .mobreleasedate, .mobexplore, .mobprofile {
+    text-align: center;
+  }
+  
+  .mobexplore a{
+    color: black;
+  }
+  
+  .mobimg{
+  width: 23px;
+  height: 23px;
+  margin: 0 auto;
+  border-radius: 50%;
+  }
+  .mobimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
