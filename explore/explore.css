@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+
+.header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrback a{
+  color: white;
+  margin-left: 10px;
+}
+.exp p {
+  text-transform: capitalize;
+  color: white;
+}
+.fordot{
+  color: white;
+  margin-right: 10px;
+}
+.searchcontainer{
+    margin: 20px 25px;
+}
+.searchcontainer a{
+    color: gray;
+    margin-right: 10px;
+}
+
+.searchcontainer input{
+    width: 95%;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.other{
+text-align: center;
+text-transform: capitalize;
+color: goldenrod;
+/* color: rgba(49, 41, 15, 0.329); */
+/* color: yellow; */
+}
+
+
+
+.exploresection{
+    margin-bottom: 90px;
+}
+
+.imgcontainer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.imagecontainer{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.imagecontainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.surname h4{
+color: goldenrod;
+}
+
+.surname p{
+  color: gold;
+}
+
+/* ======================== */
+
+.mobnav{
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    background: white;
+    z-index: 1000;
+    width: 100%;
+  }
+  .mobnavflex{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  
+  .mobnavflex a{
+    text-decoration: none;
+    color: rgb(107, 104, 104);
+  }
+  
+  .mobhome, .mobcollection, .mobreleasedate, .mobexplore, .mobprofile {
+    text-align: center;
+  }
+  
+  .mobexplore a{
+    color: black;
+  }
+  
+  .mobimg{
+  width: 23px;
+  height: 23px;
+  margin: 0 auto;
+  border-radius: 50%;
+  }
+  .mobimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
