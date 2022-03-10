@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(80, 73, 73);
+}
+
+.addshoeflex{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+@media(max-width: 480px ){
+    .addshoeflex{
+        margin-left: 35%;
+        margin-right: 35%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 400px){
+    .addshoeflex{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 300px){
+    .addshoeflex{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+}
+
+.addshoe{
+    position: fixed;
+    bottom: 78px;
+    padding: 13px;
+    /* background-color: rgb(133, 115, 14); */
+    background-color: goldenrod;
+    border-radius: 20px; 
+}
+
+.addshoe a{
+    color: white;
+    text-decoration: none;
+}
+.addshoe p{
+    text-transform: uppercase;
+}
+.addshoe i{
+    margin-right: 5px;
+}
+
+
+/* ======================== */
+.mobnav{
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    background: white;
+    z-index: 1000;
+    width: 100%;
+  }
+  .mobnavflex{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  
+  .mobnavflex a{
+    text-decoration: none;
+    color: rgb(107, 104, 104);
+  }
+  
+  .mobhome, .mobcollection, .mobreleasedate, .mobexplore, .mobprofile {
+    text-align: center;
+  }
+  
+  .mobcollection a{
+    color: black;
+  }
+  
+  .mobimg{
+  width: 23px;
+  height: 23px;
+  margin: 0 auto;
+  border-radius: 50%;
+  }
+  .mobimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }

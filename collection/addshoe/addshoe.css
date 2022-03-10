@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .arrback a{
+    color: white;
+    margin-left: 10px;
+  }
+  .exp p {
+    text-transform: capitalize;
+    color: white;
+  }
+  .fordot{
+    color: white;
+    margin-right: 10px;
+  }
+
+body{
+    background-color: 
+    black;
+
+    padding: 10px;
+}
+.formcontainer {
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.formcontainer label{
+display: block;
+text-align: left;
+text-transform: capitalize;
+color: goldenrod;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.formcontainer input{
+background-color: white;
+border: none;
+padding: 10px;
+color: gray;
+border-radius: 10px;
+width: 100%;
+}
+
+.formcontainer button{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(197, 141, 1, 0.575); */
+    background-color: goldenrod; 
+    color: white;
+     padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
